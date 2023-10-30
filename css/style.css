@@ -1,0 +1,309 @@
+p {
+    font-family: Open Sans;
+    font-size: 14px;
+}
+h1, h4, h5 {
+    font-family: Lato;
+}
+/* Footer */
+footer p {
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+}
+footer h4 {
+    padding: 134px 0 20px 0;
+}
+footer img {
+    padding: 134px 0 20px 0;
+    align-items: center;
+}
+.second {
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 130px;
+    color: #969696;;
+}
+.fa-youtube{
+    padding-bottom: 40px;
+}
+.foottextnext {
+    padding-top: 80px;
+}
+.paragraf{
+    font-family: Open Sans;
+    color: #969696;
+}
+.paragraf span {
+    color: #CCC;
+}
+/* Meet your host */
+.card-title {
+    font-weight: 700;
+    font-size: 27px;
+}
+.card-text {
+    font-weight: 400;
+    font-size: 14px;
+}
+.host {
+    margin-top: 22px;
+    margin-bottom: 23px;
+    font-weight: 700;
+
+}
+.view {
+    margin-top: 56px;
+    margin-bottom: 31px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.meet {
+    margin-bottom: 36px;
+}
+@media  (min-width: 768px) {
+    .meet {
+        margin-top: 105px;
+    }
+    .host {
+        font-size: 50px;
+    }
+    
+}
+.last {
+    margin-bottom: 68px;
+}
+.pic {
+    padding-bottom: 70px;
+}
+/* Play ikona ant paveiklso */
+.fa-play {
+    background: white;
+    border: 1px solid #CECECE;;
+    border-radius: 45px;
+    padding: 15px;
+}
+.wrapper { 
+    display: flex; 
+    justify-content: center;
+}    
+.content { 
+    position: relative; 
+    width: max-content;
+}
+.content img { 
+    display: block; 
+}
+/* ikonos nustatymas */
+.content .fa-play { 
+    position: absolute; 
+    top:50%; left: 50%;
+    transform: translate(-50%, -50%); 
+}
+/* Top podcast */
+.one {
+    background: #F8F8F8;
+}
+@media  (min-width: 768px) {
+    .poodcast {
+    padding-top: 92px;  
+    }
+    #essential {
+        margin-top: 127px;
+    }
+    .slide-dot {
+        padding-bottom: 107px;
+    }
+    .topp {
+        margin-bottom: 50px;
+    }
+}
+.top{
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+/* Card išnešimas už konteinerio ribų */
+/* .right-card {
+    position: relative;
+    transform: translatex(20%);
+}  
+.left-card {
+    position: relative;
+    transform: translatex(-20%);
+} */
+/* Essential episode */
+.fa-headphones {
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+}
+.left-headphones {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+@media  (min-width: 575px) {
+    .left-headphones {
+    position: absolute;
+    left: 38%;
+    top: 10px;
+    z-index: 1; 
+    }
+}
+.right-headphones {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+/* Best places */
+@media  (min-width: 992px) {
+    .imag {
+    position: relative;
+    transform: translatex(-5%);
+    }
+}
+ .new-episod {
+    writing-mode:vertical-rl;
+    transform: rotate(90deg);
+    color: #F8F8F8;
+    font-size: 92px;
+    font-weight: 600;
+}
+
+
+@media  (min-width: 769px) {
+    .first {
+    /* margin-top: 140px; */
+    margin-bottom: 140px;
+    }
+    .best-place{
+    font-weight: 700;
+    font-size: 50px;
+    }
+}
+.category {
+    margin-top: 28px;
+    margin-bottom: 29px;
+}
+/* .page{
+    margin-top: 31px;
+} */
+.paragraf-one{
+    font-family: Open Sans;
+    font-weight: 400;
+}
+.best {
+    margin-top: 25px;
+}
+/* Header */
+header {
+    background-image: url(../img/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 880px;
+}
+.navbar {
+    color: #000;
+    margin-top: 47.51px;
+    font-family: Lato;
+    font-weight: 700;
+}
+.new-episode {
+    color: #000;
+    font-family: Lato;
+    font-weight: 700;
+    margin-top: 21px;
+}
+.soundcast {
+    margin-top: 14px;
+    margin-bottom: 50px;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+@media  (min-width: 769px) {
+    .new-episode {
+    font-size: 95px;
+    margin-top: 100px;
+    }
+    .soundcast {
+    font-size: 19px;
+    }
+}
+/* Black buttons */
+.btn-dark {
+    font-size: 12px;
+    padding-left: 70px;
+    position: relative;
+    text-align: left;
+}
+.btn-dark span {
+    font-size: 12px;
+}
+.btn {
+    margin-right: 23px;
+}
+.fa-podcast, .fa-soundcloud {
+    left: 20px;
+    margin-right: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+.apple span{
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.button {
+    height: 60px;
+    width: 205px;
+}
+.button-second {
+    height: 60px;
+    width: 180px;
+}
+/* Timmy music player */
+.timmy {
+    font-size: 38px;
+    font-weight: 700;
+}
+/* Range slider */
+.slidecontainer {
+    width: 100%;
+  }
+  
+.slider {
+    appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: black;
+}
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+/* @media  (min-width: 992px) {
+    .mike {
+        position: absolute;
+        top: -80%;
+        left: 13%;
+    }
+    .section-one {
+        position: relative;
+    }
+} */
+.mike {
+    position: relative;
+    top: -150px;
+    }
