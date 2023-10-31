@@ -1,9 +1,9 @@
 p {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 h1, h4, h5 {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 /* Footer */
 footer p {
@@ -23,6 +23,17 @@ footer img {
     padding-bottom: 130px;
     color: #969696;;
 }
+@media  (max-width: 426px) {
+    .second {
+        padding-bottom: 30px;
+    }
+    footer img {
+        padding-top: 34px;
+    }
+    footer h4 {
+        padding-top: 30px;
+    }
+}
 .fa-youtube{
     padding-bottom: 40px;
 }
@@ -30,7 +41,7 @@ footer img {
     padding-top: 80px;
 }
 .paragraf{
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     color: #969696;
 }
 .paragraf span {
@@ -38,39 +49,39 @@ footer img {
 }
 /* Meet your host */
 .card-title {
-    font-weight: 700;
     font-size: 27px;
 }
 .card-text {
-    font-weight: 400;
     font-size: 14px;
 }
 .host {
-    margin-top: 22px;
-    margin-bottom: 23px;
-    font-weight: 700;
-
+    margin-top: 5px;
+    margin-bottom: 5pxpx;
 }
 .view {
-    margin-top: 56px;
-    margin-bottom: 31px;
-    font-weight: 700;
     font-size: 15px;
-}
-.meet {
-    margin-bottom: 36px;
+    margin-top: 10px;
 }
 @media  (min-width: 768px) {
     .meet {
         margin-top: 105px;
+        margin-bottom: 36px;
     }
     .host {
         font-size: 50px;
+        margin-top: 22px;
+        margin-bottom: 23px;
     }
-    
-}
-.last {
-    margin-bottom: 68px;
+    .view {
+        margin-top: 56px;
+        margin-bottom: 31px;
+    }
+    .card-three {
+        padding-bottom: 35px;
+    }
+    .last {
+        margin-bottom: 68px;
+    }
 }
 .pic {
     padding-bottom: 70px;
@@ -105,7 +116,7 @@ footer img {
 }
 @media  (min-width: 768px) {
     .poodcast {
-    padding-top: 92px;  
+        padding-top: 92px;  
     }
     #essential {
         margin-top: 127px;
@@ -148,10 +159,10 @@ footer img {
 }
 @media  (min-width: 575px) {
     .left-headphones {
-    position: absolute;
-    left: 38%;
-    top: 10px;
-    z-index: 1; 
+        position: absolute;
+        left: 38%;
+        top: 10px;
+        z-index: 1; 
     }
 }
 .right-headphones {
@@ -163,8 +174,8 @@ footer img {
 /* Best places */
 @media  (min-width: 992px) {
     .imag {
-    position: relative;
-    transform: translatex(-5%);
+        position: relative;
+        transform: translatex(-5%);
     }
 }
  .new-episod {
@@ -179,11 +190,11 @@ footer img {
 @media  (min-width: 769px) {
     .first {
     /* margin-top: 140px; */
-    margin-bottom: 140px;
+        margin-bottom: 140px;
     }
     .best-place{
-    font-weight: 700;
-    font-size: 50px;
+        font-weight: 700;
+        font-size: 50px;
     }
 }
 .category {
@@ -207,6 +218,11 @@ header {
     background-repeat: no-repeat;
     height: 880px;
 }
+@media  (max-width: 769px) {
+    header {
+        height: 650px;
+    }
+}
 .navbar {
     color: #000;
     margin-top: 47.51px;
@@ -227,11 +243,11 @@ header {
 }
 @media  (min-width: 769px) {
     .new-episode {
-    font-size: 95px;
-    margin-top: 100px;
+        font-size: 95px;
+        margin-top: 100px;
     }
     .soundcast {
-    font-size: 19px;
+        font-size: 19px;
     }
 }
 /* Black buttons */
@@ -271,7 +287,6 @@ header {
 /* Timmy music player */
 .timmy {
     font-size: 38px;
-    font-weight: 700;
 }
 /* Range slider */
 .slidecontainer {
@@ -293,17 +308,9 @@ header {
     background: black;
     cursor: pointer;
 }
-/* @media  (min-width: 992px) {
+@media  (min-width: 769px) {
     .mike {
-        position: absolute;
-        top: -80%;
-        left: 13%;
-    }
-    .section-one {
         position: relative;
-    }
-} */
-.mike {
-    position: relative;
-    top: -150px;
-    }
+        top: -150px;
+        }
+}
