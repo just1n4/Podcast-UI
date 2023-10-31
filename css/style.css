@@ -132,15 +132,7 @@ footer img {
     margin-top: 3px;
     margin-bottom: 20px;
 }
-/* Card išnešimas už konteinerio ribų */
-/* .right-card {
-    position: relative;
-    transform: translatex(20%);
-}  
-.left-card {
-    position: relative;
-    transform: translatex(-20%);
-} */
+
 /* Essential episode */
 .fa-headphones {
     text-align: center;
